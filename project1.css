@@ -126,3 +126,16 @@ button:hover{
     background-color: rgb(13, 171, 13);
     transform: scale(1.02);
 }
+
+@media (max-width: 686px) {
+    .card{
+        width: 100%;
+        height: auto;
+    }
+
+   #bottomleftpart, #bottomrightpart{
+        width: 100%;
+        height: auto;
+        display: block;
+}
+}
